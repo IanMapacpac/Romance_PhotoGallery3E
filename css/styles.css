@@ -1,0 +1,105 @@
+/*
+font-family: 'Forum', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.nav {
+	margin: 0;
+	min-width: 100vw;
+	height: 20%;
+
+}
+
+.nav__background {
+	width: 100%;
+	height: auto;
+	top: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.nav__bar {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+.nav__items {
+	list-style: none;
+	display: inline-block;
+}
+.nav__items li {
+	display: inline;
+	text-decoration: none;
+	align-content: space-between;
+	font-size: 18px;
+	margin-left: 3rem;
+}
+.nav__items li a {
+	text-decoration: none;
+	color: black;
+	transition: 0.3s;
+}
+.nav__items li a:hover {
+	color: #D5ABAC;
+}
+.item__selected {
+	font-weight: bold;
+	color: #D5ABAC !important;
+}
+.nav__logo {
+	display: inline-block;
+	cursor: pointer;
+}
+.nav__button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	width: 7rem;	
+	height: 2rem;
+	margin-left: 3rem;
+	background-color: transparent;
+	border: 2px solid #D5ABAC;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.nav__button:hover {
+	background-color: #D5ABAC;
+}
+.visit__button {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	width: 15%;
+	height: 2.5rem;
+	margin-left: 42%;
+	margin-top: 10%;
+	border: 2px solid #D5ABAC;
+	background-color: transparent;
+	cursor: pointer;
+	transition: 0.5s;
+}
+.visit__button:hover {
+	background-color: #D5ABAC;
+	color: black;
+}
+.items {
+	float: right;
+	margin-top: 4rem;
+	margin-left: 23rem;
+}
+.main {
+	margin-top: 20rem;
+}
+
+
