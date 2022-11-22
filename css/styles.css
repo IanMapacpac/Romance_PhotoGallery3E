@@ -104,7 +104,7 @@ body {
 	margin-left: 35rem;
 }
 .main {
-	margin-top: 2.4rem;
+	
 	padding-top: 10rem;
 	background-color: #FFEAEC;
 }
@@ -118,12 +118,74 @@ body {
 	margin: 0;
 	padding: 0;
 }
+.row {
+	margin-top: 2.5rem;
+	padding-top: 5%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	background-color: #FFEAEC;
+}
+.welcome-col {
+	position: relative;
+	
+	height: 640px;
+	flex-basis: 70%;
+	background: #D5ABAC;
+	border: 8px solid #AD6163; 
+	box-shadow: -8px 8px 4px rgba(182, 130, 131, 0.85);
+	border-radius: 5px;
+	margin: 5% 0%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+}
 
+.title_text {
+	font-family: 'Forum', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 49px;
+	text-align: center;
+	/* text-shadow: -8px 8px 4px rgba(141, 99, 100, 0.85); */
+	color: #AD6163;
+}
+
+.title_content {
+	margin: 40px 90px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 31px;
+	text-align: center;
+	/* text-shadow: -8px 8px 4px rgba(141, 99, 100, 0.85); */
+	
+}
+
+
+.shop {
+	position: relative;
+	background-color: #FFEAEC;
+}
+.shop h4 {
+	font-family: 'Forum', cursive;
+	font-size: 30px;
+	line-height: 47px;
+	color: #8D6364;
+	text-shadow: -8px 8px 4px rgba(213, 171, 172, 0.85);
+	padding-top: 75px;
+	padding-left: 50px;
+	font-weight: bold;
+
+}
 
 .container {
 	position: relative;
 	column-count: 3;
 	padding: 50px;
+	background-color: #FFEAEC;
 }
 
 .image {
