@@ -150,6 +150,10 @@ body {
 	box-sizing: border-box;
 }
 
+.about{
+	position: relative;
+	margin-top: 16.5rem;
+}
 .title_text {
 	font-family: 'Forum', cursive;
 	font-style: normal;
